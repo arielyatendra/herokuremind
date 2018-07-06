@@ -8,10 +8,10 @@ class Interceptor extends \Faonni\ProductMostOrdered\Block\ProductList implement
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(\Magento\Catalog\Block\Product\Context $context, \Magento\Catalog\Model\Product\Visibility $catalogProductVisibility, \Magento\Framework\Module\Manager $moduleManager, \Magento\Framework\Registry $registry, \Faonni\ProductMostOrdered\Model\ResourceModel\Product\CollectionFactory $productsFactory, array $data = array())
+    public function __construct(\Magento\Catalog\Block\Product\Context $context, \Magento\Catalog\Model\Product\Visibility $catalogProductVisibility, \Magento\Framework\Module\Manager $moduleManager, \Faonni\ProductMostOrdered\Model\ResourceModel\Product\CollectionFactory $productsFactory, array $data = array())
     {
         $this->___init();
-        parent::__construct($context, $catalogProductVisibility, $moduleManager, $registry, $productsFactory, $data);
+        parent::__construct($context, $catalogProductVisibility, $moduleManager, $productsFactory, $data);
     }
 
     /**

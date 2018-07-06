@@ -129,5 +129,7 @@ return array (
     'Magento_WishlistSampleData' => 1,
     'Plumrocket_Base' => 1,
     'Plumrocket_SocialLoginFree' => 1,
+    'TemplateCard_Cards' => 1,
+    'Toptal_Blog' => 1,
   ),
 );
